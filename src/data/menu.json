@@ -1,0 +1,74 @@
+{
+   "items": [
+     {
+       "name": "Porción de Arroz",
+       "description": "Arroz blanco cocido",
+       "price": 10,
+       "image": "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&q=80&w=400 ",
+       "category": "sides"
+     },
+     {
+       "name": "Porción de Papas Fritas",
+       "description": "Papas fritas crujientes",
+       "price": 10,
+       "image": "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?auto=format&fit=crop&q=80&w=400 ",
+       "category": "sides"
+     },
+     {
+       "name": "Porción de Plátano",
+       "description": "Plátano frito",
+       "price": 10,
+       "image": "https://images.unsplash.com/photo-1603833665858-e61d17a86224?auto=format&fit=crop&q=80&w=400 ",
+       "category": "sides"
+     },
+     {
+       "name": "Milanesa de Carne/Pollo",
+       "description": "Papas Fritas - Arroz - Plátano",
+       "price": 40,
+       "image": "https://images.unsplash.com/photo-1599921841143-819065a55cc6?auto=format&fit=crop&q=80&w=400 ",
+       "category": "main"
+     },
+     {
+       "name": "Milanesa Napolitana",
+       "description": "Queso - Jamón - Papas Fritas - Arroz - Plátano",
+       "price": 40,
+       "image": "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?auto=format&fit=crop&q=80&w=400 ",
+       "category": "main"
+     },
+     {
+       "name": "Milanesa Parmesana",
+       "description": "Queso - Choclo - Papas Fritas - Arroz - Plátano",
+       "price": 40,
+       "image": "https://images.unsplash.com/photo-1668236543090-82892ff0a03d?auto=format&fit=crop&q=80&w=400 ",
+       "category": "main"
+     },
+     {
+       "name": "Bife",
+       "description": "Carne - Huevo - Ensalada - Papas Fritas - Arroz - Plátano",
+       "price": 35,
+       "image": "https://images.unsplash.com/photo-1600891964092-4359a2119b93?auto=format&fit=crop&q=80&w=400 ",
+       "category": "specials"
+     },
+     {
+       "name": "Salchipapa",
+       "description": "Salchicha - Papas Fritas - Choclo - Plátano",
+       "price": 20,
+       "image": "https://images.unsplash.com/photo-1577906096429-f73c2c312435?auto=format&fit=crop&q=80&w=400 ",
+       "category": "specials"
+     },
+     {
+       "name": "Salchipollo",
+       "description": "Salchicha - Papas Fritas - Choclo - Plátano - Huevo - Pollo",
+       "price": 25,
+       "image": "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?auto=format&fit=crop&q=80&w=400 ",
+       "category": "specials"
+     },
+     {
+       "name": "Pechuga a la Plancha",
+       "description": "Pollo - Ensalada - Arroz - Papa Frita - Plátano",
+       "price": 35,
+       "image": "https://images.unsplash.com/photo-1632778149885-0a1759592497?auto=format&fit=crop&q=80&w=400 ",
+       "category": "main"
+     }
+   ]
+ }

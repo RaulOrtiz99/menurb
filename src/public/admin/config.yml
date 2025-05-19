@@ -1,0 +1,39 @@
+backend:
+  name: git-gateway
+  branch: main # o master, dependiendo del nombre de tu rama
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: menu
+    label: Menú Principal
+    editor:
+      preview: false
+    files:
+      - name: items
+        label: Items del Menú
+        file: src/data/menu.json
+        fields:
+          - label: Nombre
+            name: name
+            widget: string
+          - label: Descripción
+            name: description
+            widget: textarea
+          - label: Precio
+            name: price
+            widget: number
+          - label: Imagen
+            name: image
+            widget: image
+          - label: Categoría
+            name: category
+            widget: select
+            options:
+              - value: sides
+                label: Porciones
+              - value: main
+                label: Platos Principales
+              - value: specials
+                label: Especiales
