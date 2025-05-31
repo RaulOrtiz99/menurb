@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Phone, MapPin } from 'lucide-react';
 
 interface MenuItem {
+  id: number; // agregado id único
   name: string;
   description: string;
   price: number;
@@ -14,6 +15,7 @@ function App() {
 
   const menuItems: MenuItem[] = [
     {
+      id: 1,
       name: "Porción de Arroz",
       description: "Arroz blanco cocido",
       price: 10,
@@ -21,6 +23,7 @@ function App() {
       category: 'sides'
     },
     {
+      id: 2,
       name: "Porción de Papas Fritas",
       description: "Papas fritas crujientes",
       price: 10,
@@ -28,6 +31,7 @@ function App() {
       category: 'sides'
     },
     {
+      id: 3,
       name: "Porción de Plátano",
       description: "Plátano frito",
       price: 10,
@@ -35,6 +39,7 @@ function App() {
       category: 'sides'
     },
     {
+      id: 4,
       name: "Milanesa de Carne/Pollo",
       description: "Papas Fritas - Arroz - Plátano",
       price: 40,
@@ -42,6 +47,7 @@ function App() {
       category: 'main'
     },
     {
+      id: 5,
       name: "Milanesa Napolitana",
       description: "Queso - Jamón - Papas Fritas - Arroz - Plátano",
       price: 40,
@@ -49,6 +55,7 @@ function App() {
       category: 'main'
     },
     {
+      id: 6,
       name: "Milanesa Parmesana",
       description: "Queso - Choclo - Papas Fritas - Arroz - Plátano",
       price: 40,
@@ -56,6 +63,7 @@ function App() {
       category: 'main'
     },
     {
+      id: 7,
       name: "Bife",
       description: "Carne - Huevo - Ensalada - Papas Fritas - Arroz - Plátano",
       price: 35,
@@ -63,6 +71,7 @@ function App() {
       category: 'specials'
     },
     {
+      id: 8,
       name: "Salchipapa",
       description: "Salchicha - Papas Fritas - Choclo - Plátano",
       price: 20,
@@ -70,6 +79,7 @@ function App() {
       category: 'specials'
     },
     {
+      id: 9,
       name: "Salchipollo",
       description: "Salchicha - Papas Fritas - Choclo - Plátano - Huevo - Pollo",
       price: 25,
@@ -77,6 +87,7 @@ function App() {
       category: 'specials'
     },
     {
+      id: 10,
       name: "Pechuga a la Plancha",
       description: "Pollo - Ensalada - Arroz - Papa Frita - Plátano",
       price: 35,
@@ -146,9 +157,9 @@ function App() {
       {/* Menu Grid */}
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredItems.map((item, index) => (
+          {filteredItems.map(item => (
             <div 
-              key={index}
+              key={item.id}  // uso id único
               className="bg-gray-900 rounded-lg overflow-hidden transform hover:scale-105 transition-all duration-300 shadow-xl border-2 border-yellow-400"
             >
               <div className="relative h-48">
